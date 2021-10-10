@@ -1,1 +1,86 @@
-<mxfile host="app.diagrams.net" modified="2021-10-10T04:01:55.754Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" version="15.5.0" etag="RbKxhpTvgc_GvSOrM40_" type="github"><diagram id="fmQaKAquTXCsim_7PdvP">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-10-10T08:40:41.163Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="R7gQ5QPotQ8ReAgA3PXJ" version="15.5.0" type="github">
+  <diagram id="fmQaKAquTXCsim_7PdvP" name="Page-1">
+    <mxGraphModel dx="944" dy="537" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wKNMYa4T6Tr79ezf6CRU-11" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wKNMYa4T6Tr79ezf6CRU-2" target="wKNMYa4T6Tr79ezf6CRU-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wKNMYa4T6Tr79ezf6CRU-2" value="获取攻击目标的AppleID信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wKNMYa4T6Tr79ezf6CRU-35" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="wKNMYa4T6Tr79ezf6CRU-24" target="wKNMYa4T6Tr79ezf6CRU-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wKNMYa4T6Tr79ezf6CRU-36" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wKNMYa4T6Tr79ezf6CRU-4" target="wKNMYa4T6Tr79ezf6CRU-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wKNMYa4T6Tr79ezf6CRU-4" value="申请苹果官网选择账号恢复" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wKNMYa4T6Tr79ezf6CRU-16" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wKNMYa4T6Tr79ezf6CRU-8" target="wKNMYa4T6Tr79ezf6CRU-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wKNMYa4T6Tr79ezf6CRU-17" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wKNMYa4T6Tr79ezf6CRU-16">
+          <mxGeometry x="-0.04" y="-2" relative="1" as="geometry">
+            <mxPoint y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wKNMYa4T6Tr79ezf6CRU-18" value="否" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wKNMYa4T6Tr79ezf6CRU-8" target="wKNMYa4T6Tr79ezf6CRU-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wKNMYa4T6Tr79ezf6CRU-8" value="原邮箱拥有者是否登录和处置？" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#FF9436;" vertex="1" parent="1">
+          <mxGeometry x="530" y="215" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="wKNMYa4T6Tr79ezf6CRU-9" value="盗号失败，放弃" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#00FF00;" vertex="1" parent="1">
+          <mxGeometry x="700" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wKNMYa4T6Tr79ezf6CRU-27" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.025;entryY=0.617;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="wKNMYa4T6Tr79ezf6CRU-10" target="wKNMYa4T6Tr79ezf6CRU-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wKNMYa4T6Tr79ezf6CRU-10" value="使用申诉的新手机和邮箱完全接管APPLEID" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="530" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wKNMYa4T6Tr79ezf6CRU-20" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wKNMYa4T6Tr79ezf6CRU-19" target="wKNMYa4T6Tr79ezf6CRU-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wKNMYa4T6Tr79ezf6CRU-19" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/smileys-for-fun/128/smiley__14-128.png;strokeColor=#FF9436;" vertex="1" parent="1">
+          <mxGeometry x="250" y="133.5" width="33" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="wKNMYa4T6Tr79ezf6CRU-21" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/materia-halloween-free/24/039_022_ghost_halloween_evil_casper-128.png;strokeColor=#FF9436;" vertex="1" parent="1">
+          <mxGeometry x="500" y="365" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wKNMYa4T6Tr79ezf6CRU-22" value="" style="image;html=1;image=img/lib/clip_art/finance/Safe_128x128.png;strokeColor=#FF9436;" vertex="1" parent="1">
+          <mxGeometry x="743.5" y="295" width="33" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wKNMYa4T6Tr79ezf6CRU-23" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/business-management-3-4/256/m-16-128.png;strokeColor=#FF9436;" vertex="1" parent="1">
+          <mxGeometry x="496.75" y="241.75" width="36.5" height="36.5" as="geometry" />
+        </mxCell>
+        <mxCell id="wKNMYa4T6Tr79ezf6CRU-24" value="原邮箱都会收到提示信息" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#00FF00;" vertex="1" parent="1">
+          <mxGeometry x="290" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wKNMYa4T6Tr79ezf6CRU-33" value="" style="curved=1;endArrow=classic;html=1;rounded=0;dashed=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="wKNMYa4T6Tr79ezf6CRU-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="380" as="sourcePoint" />
+            <mxPoint x="760" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="190" y="440" />
+              <mxPoint x="420" y="410" />
+              <mxPoint x="680" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wKNMYa4T6Tr79ezf6CRU-34" value="及时登录APPLEID" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wKNMYa4T6Tr79ezf6CRU-33">
+          <mxGeometry x="-0.2119" y="3" relative="1" as="geometry">
+            <mxPoint x="3" y="21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
